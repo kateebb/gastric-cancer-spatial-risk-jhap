@@ -13,17 +13,20 @@ spatialRR/*
 
 outputs/*
 !outputs/.gitkeep
+outputs/*/
 
 outputs/fig5/*
+!outputs/fig5/*/
 !outputs/fig5/.gitkeep
 
 outputs/supplementary/*
+!outputs/supplementary/*/
 !outputs/supplementary/.gitkeep
 
-# But DO track the data folder
+# Keep data files
 !data/
 
-# Still ignore hidden system files
+# Ignore system files
 .DS_Store
 .Rproj.user
 .Rhistory
