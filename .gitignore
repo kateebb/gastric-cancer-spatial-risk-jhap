@@ -1,5 +1,10 @@
 # Ignore all subfolders
-*/
+final_models/*
+fitting_models/*
+residuals/*
+spatialRR/*
+outputs/fig5/*
+outputs/supplementary/*
 
 # But DO track the data folder
 !data/
