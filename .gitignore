@@ -3,6 +3,7 @@ final_models/*
 fitting_models/*
 residuals/*
 spatialRR/*
+outputs/*
 outputs/fig5/*
 outputs/supplementary/*
 
