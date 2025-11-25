@@ -1,11 +1,24 @@
 # Ignore all subfolders
 final_models/*
+!final_models/.gitkeep
+
 fitting_models/*
+!fitting_models/.gitkeep
+
 residuals/*
+!residuals/.gitkeep
+
 spatialRR/*
+!spatialRR/.gitkeep
+
 outputs/*
+!outputs/.gitkeep
+
 outputs/fig5/*
+!outputs/fig5/.gitkeep
+
 outputs/supplementary/*
+!outputs/supplementary/.gitkeep
 
 # But DO track the data folder
 !data/
