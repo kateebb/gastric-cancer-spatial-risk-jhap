@@ -11,19 +11,20 @@ residuals/*
 spatialRR/*
 !spatialRR/.gitkeep
 
+# Ignore all files in outputs except subfolders
 outputs/*
 !outputs/.gitkeep
-outputs/*/
+outputs/*/  # keep subfolders
 
 outputs/fig5/*
-!outputs/fig5/*/
 !outputs/fig5/.gitkeep
+!outputs/fig5/*/  # keep subfolders
 
 outputs/supplementary/*
-!outputs/supplementary/*/
 !outputs/supplementary/.gitkeep
+!outputs/supplementary/*/  # keep subfolders
 
-# Keep data files
+# Track data folder
 !data/
 
 # Ignore system files
@@ -32,3 +33,4 @@ outputs/supplementary/*
 .Rhistory
 .RData
 .Ruserdata
+
