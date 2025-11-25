@@ -1,0 +1,12 @@
+# Ignore all subfolders
+*/
+
+# But DO track the data folder
+!data/
+
+# Still ignore hidden system files
+.DS_Store
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata

@@ -1,0 +1,45 @@
+﻿Variable,Description,Datasource,Datasource link (if applicable)
+department,Numeric administrative code for department,Honduras 2001 Census,http://181.115.7.199/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001
+mun,Numeric administrative code for municipio,Honduras 2001 Census,http://181.115.7.199/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001
+adult,Total adult population in the municipio in 2001,Honduras 2001 Census,http://181.115.7.199/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001
+male,Total adult male population in the municipio in 2001,Honduras 2001 Census,http://181.115.7.199/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001
+female,Total adult female population in the municipio in 2001,Honduras 2001 Census,http://181.115.7.199/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001
+dist_km,"Road network distance from municipio centroid to Western Region Hospital in 2024, calculated using 'gmapsdistance' package in R",Google Maps,
+urban_pct,% of urban households in the municpio in 2001,Honduras 2001 Census,http://181.115.7.199/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001
+poverty_index,Average deprivation score in the municpio in 2001,Honduras 2001 Census,http://181.115.7.199/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001
+mayachorti,Total Maya/Chortí adult population in the municipio in 2001,Honduras 2001 Census,http://181.115.7.199/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001
+lenca,Total Lenca adult population in the municipio in 2001,Honduras 2001 Census,http://181.115.7.199/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001
+may_pct,% of municpio adult population that identified as Maya/Chortí in 2001,Honduras 2001 Census,http://181.115.7.199/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001
+len_pct,% of municpio adult population that identified as Lenca in 2001,Honduras 2001 Census,http://181.115.7.199/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001
+may_log,log(may_pct + 1),,
+len_log,log(len_pct + 1),,
+wood_pct,% of households in the municipio that report primarily cooking with wood in 2001,Honduras 2001 Census,http://181.115.7.199/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001
+water_piped,% of households in the municipio that report using piped water as primary water source in 2001,Honduras 2001 Census,http://181.115.7.199/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001
+water_well,% of households in the municipio that report using unprotected well as primary water source in 2001,Honduras 2001 Census,http://181.115.7.199/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001
+water_river,% of households in the municipio that report using river or natural spring as primary water source in 2001,Honduras 2001 Census,http://181.115.7.199/binhnd/RpWebEngine.exe/Portal?BASE=CPVHND2001
+avg_elev,Average elevation value in the municpio area,Shuttle Radar Topography Mission,https://www.earthdata.nasa.gov/data/instruments/srtm
+avg_tri,"Average TRI value, derived from elevation data and using the 'terra' package",Western Honduras Gastric Cancer Initiative,
+n1,"Observed Count - All gastric cancer cases, for all persons, observed in the municipio between 2002-2015",Western Honduras Gastric Cancer Initiative,
+n2,"Observed Count - All gastric cancer cases, for males, observed in the municipio between 2002-2015",Western Honduras Gastric Cancer Initiative,
+n3,"Observed Count - All gastric cancer cases, for females, observed in the municipio between 2002-2015",Western Honduras Gastric Cancer Initiative,
+n4,"Observed Count - Diffuse gastric cancer cases, for all persons, observed in the municipio between 2002-2015",Western Honduras Gastric Cancer Initiative,
+n5,"Observed Count - Diffuse gastric cancer cases, for males, observed in the municipio between 2002-2015",Western Honduras Gastric Cancer Initiative,
+n6,"Observed Count - Diffuse gastric cancer cases, for females, observed in the municipio between 2002-2015",Western Honduras Gastric Cancer Initiative,
+n7,"Observed Count - Intestinal gastric cancer cases, for all persons, observed in the municipio between 2002-2015",Western Honduras Gastric Cancer Initiative,
+n8,"Observed Count - Intestinal gastric cancer cases, for males, observed in the municipio between 2002-2015",Western Honduras Gastric Cancer Initiative,
+n9,"Observed Count - Intestinal gastric cancer cases, for females, observed in the municipio between 2002-2015",Western Honduras Gastric Cancer Initiative,
+n10,"Observed Count - Mixed/Indet. gastric cancer cases, for all persons, observed in the municipio between 2002-2015",Western Honduras Gastric Cancer Initiative,
+n11,"Observed Count - Mixed/Indet.  cancer cases, for males, observed in the municipio between 2002-2015",Western Honduras Gastric Cancer Initiative,
+n12,"Observed Count - Mixed/Indet. cancer cases, for females, observed in the municipio between 2002-2015",Western Honduras Gastric Cancer Initiative,
+e1,"Expected Count - All gastric cancer cases, for all persons, observed in the municipio between 2002-2015 (calculated from observed counts and age/sex standardized rates)",,
+e2,"Expected Count - All gastric cancer cases, for males, observed in the municipio between 2002-2015 (calculated from observed counts and age/sex standardized rates)",,
+e3,"Expected Count - All gastric cancer cases, for females, observed in the municipio between 2002-2015 (calculated from observed counts and age/sex standardized rates)",,
+e4,"Expected Count - Diffuse gastric cancer cases, for all persons, observed in the municipio between 2002-2015 (calculated from observed counts and age/sex standardized rates)",,
+e5,"Expected Count - Diffuse gastric cancer cases, for males, observed in the municipio between 2002-2015 (calculated from observed counts and age/sex standardized rates)",,
+e6,"Expected Count - Diffuse gastric cancer cases, for females, observed in the municipio between 2002-2015 (calculated from observed counts and age/sex standardized rates)",,
+e7,"Expected Count - Intestinal gastric cancer cases, for all persons, observed in the municipio between 2002-2015 (calculated from observed counts and age/sex standardized rates)",,
+e8,"Expected Count - Intestinal gastric cancer cases, for males, observed in the municipio between 2002-2015 (calculated from observed counts and age/sex standardized rates)",,
+e9,"Expected Count - Intestinal gastric cancer cases, for females, observed in the municipio between 2002-2015 (calculated from observed counts and age/sex standardized rates)",,
+e10,"Expected Count - Mixed/Indet. gastric cancer cases, for all persons, observed in the municipio between 2002-2015 (calculated from observed counts and age/sex standardized rates)",,
+e11,"Expected Count - Mixed/Indet.  cancer cases, for males, observed in the municipio between 2002-2015 (calculated from observed counts and age/sex standardized rates)",,
+e12,"Expected Count - Mixed/Indet. cancer cases, for females, observed in the municipio between 2002-2015 (calculated from observed counts and age/sex standardized rates)",,
